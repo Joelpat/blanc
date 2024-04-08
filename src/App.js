@@ -7,13 +7,11 @@ import Service from './component/service.js';
 import Nopage from './component/nopage.js';
 import About from './component/about.js';
 import Contact from './component/contact.js';
+import Time from './component/time.js'
 
  function App() {
-
-   
-   
-  return (
-    <>
+return (   
+   <>  
     <BrowserRouter>
     <Routes>
       <Route path='/' element={<Layout />}>
@@ -26,7 +24,7 @@ import Contact from './component/contact.js';
     </Routes>
     
     </BrowserRouter>
-    
+    <Time />
     </>
   );
   

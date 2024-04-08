@@ -7,8 +7,10 @@ import Service from './component/service.js';
 import Nopage from './component/nopage.js';
 import About from './component/about.js';
 import Contact from './component/contact.js';
- 
+
  function App() {
+
+  
   return (
     <BrowserRouter>
     <Routes>
@@ -20,7 +22,9 @@ import Contact from './component/contact.js';
         <Route path='*' element={<Nopage></Nopage>} />
       </Route>
     </Routes>
+    
     </BrowserRouter>
+    
   );
   
 }

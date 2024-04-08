@@ -10,8 +10,10 @@ import Contact from './component/contact.js';
 
  function App() {
 
-  
+   
+   
   return (
+    <>
     <BrowserRouter>
     <Routes>
       <Route path='/' element={<Layout />}>
@@ -25,6 +27,7 @@ import Contact from './component/contact.js';
     
     </BrowserRouter>
     
+    </>
   );
   
 }

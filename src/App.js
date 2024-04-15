@@ -24,7 +24,7 @@ return (
     </Routes>
     
     </BrowserRouter>
-    <Time />
+    
     </>
   );
   

@@ -4,17 +4,20 @@
     return (
         <>
         <nav>
-            <ul>
-                <li>
+            
+                <ul> 
+                    <li>  
                     <Link to='/'>Home</Link>
                 </li>
-                <li>
+                <li>  
                     <Link to='/about'>About</Link>
-                </li>
-                <li>
+                    </li>
+                <li> 
+                
                     <Link to='/Service'>Services</Link>
                 </li>
-                <li>
+                <li>  
+                
                     <Link to='/contact'>Contact</Link>
                 </li>
             </ul>

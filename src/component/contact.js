@@ -1,5 +1,18 @@
+import { useState } from "react";
 const Contact = () => {
-    return <h3>Contact Us:</h3>
+
+    const [file, setFile] = useState(null);
+
+    const handleChange = (e) => {
+        setFile(URL.createObjectURL(e.target.files[0]));
+    }
+    return ( 
+        <div> 
+    <h3>Contact Us:</h3>
+    <input type="file" onChange={handleChange}  />
+    <img src={file} />
+    </div>
+    );
 }
 
 export default Contact;

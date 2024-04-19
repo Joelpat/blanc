@@ -12,7 +12,7 @@ import Contact from './component/contact.js';
 
  function App() {
 return (   
-   <div className='App-header'>  
+   <div className='myApp'>  
     <BrowserRouter>
     <Routes>
       <Route path='/' element={<Layout />}>

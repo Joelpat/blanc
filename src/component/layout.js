@@ -3,7 +3,7 @@
  const Layout = () => {
     return (
         <>
-        <nav>
+        <nav className='nav'>
             
                 <ul> 
                     <li>  

@@ -1,7 +1,7 @@
 import { useState } from "react";
 const Contact = () => {
 
-    const [file, setFile] = useState(null);
+    const [file, setFile] = useState('null');
 
     const handleChange = (e) => {
         setFile(URL.createObjectURL(e.target.files[0]));
@@ -10,7 +10,7 @@ const Contact = () => {
         <div> 
     <h3>Contact Us:</h3>
     <input type="file" onChange={handleChange}  />
-    <img src={file} />
+    <img src={file} alt="" />
     </div>
     );
 }

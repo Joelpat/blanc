@@ -3,7 +3,7 @@ const About = () => {
     return ( 
         <>  
     <h2>We are:</h2>
-    <table>
+    <table className="table">
     <tr>
         <th>Basic</th>
         <th>Pro</th>

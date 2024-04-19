@@ -7,12 +7,12 @@ import Service from './component/service.js';
 import Nopage from './component/nopage.js';
 import About from './component/about.js';
 import Contact from './component/contact.js';
-import Time from './component/time.js'
+
 
 
  function App() {
 return (   
-   <>  
+   <div className='App-header'>  
     <BrowserRouter>
     <Routes>
       <Route path='/' element={<Layout />}>
@@ -26,7 +26,7 @@ return (
     
     </BrowserRouter>
     
-    </>
+    </div>
   );
   
 }

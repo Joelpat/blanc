@@ -16,13 +16,14 @@
 
 .myApp {
   background-color: aquamarine;
-  min-height: 100vh;
+  min-height: 60vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: blue;
+  margin-top: 50px;
 }
 
 .App-link {
@@ -40,9 +41,19 @@
 
 .table {
   width: 50vw;
+  padding-left: 50px;
+
 }
 .nav {
   color: red;
+  padding-right: 50px;
+
+}
+.serve {
+  padding-right: 50px;
+}
+tr:nth-child(even){
+  background-color: #f2f2f2;
 }
 
   

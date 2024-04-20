@@ -15,7 +15,7 @@ const Service = () => {
     };
     return (  
         <>   
-    <h2>Our Services</h2>
+    <h2 className="serve">Our Services</h2>
 
     <input type="text" value={value} onChange={(e) => setValue(e.target.value)} />
     <button onClick={addToList}>Add student</button>

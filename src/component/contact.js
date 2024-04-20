@@ -1,9 +1,10 @@
 import { useState } from "react";
 const Contact = () => {
 
-    const [file, setFile] = useState('null');
+    const [file, setFile] = useState('');
 
     const handleChange = (e) => {
+        
         setFile(URL.createObjectURL(e.target.files[0]));
     }
     return ( 
